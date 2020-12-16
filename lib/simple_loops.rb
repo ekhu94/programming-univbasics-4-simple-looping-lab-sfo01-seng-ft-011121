@@ -5,3 +5,7 @@ end
 def loop_message_n_times(str, n)
   n.times { puts str }
 end
+
+def output_array(arr)
+  arr.each { |ele| puts ele }
+end
