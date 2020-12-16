@@ -9,3 +9,7 @@ end
 def output_array(arr)
   arr.each { |ele| puts ele }
 end
+
+def return_string_array(arr)
+  arr.map { |ele| ele.to_s }
+end
